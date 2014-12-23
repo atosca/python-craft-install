@@ -105,8 +105,6 @@ class CraftInstaller:
         self.db_name = input(">>>Database name: ")
         self.db_password = input(">>>Database password: ")
         self.db_user = input(">>>Database user name: ")
-
-        ## TODO: create database, choose between new or existing, table names, multi-environment configs        
         
         #-----------------------------------------------------------
         # Set config file
